@@ -1,0 +1,59 @@
+.tour-name {
+  color: rgb(151, 54, 204);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.summary {
+  font-size: 18px;
+}
+
+.info,
+.guides {
+  border: 1px solid;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 60px;
+}
+.card_img {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: -60px auto 0;
+}
+.card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card_info {
+  padding-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: black;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

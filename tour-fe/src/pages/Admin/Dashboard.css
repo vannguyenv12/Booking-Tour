@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.left {
+  width: 30%;
+}
+
+.left div {
+  margin: 10px;
+}
+
+.right {
+  width: 70%;
+}
